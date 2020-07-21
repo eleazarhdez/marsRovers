@@ -1,0 +1,14 @@
+{
+  "name": "pruebags",
+  "version": "1.0.0",
+  "description": "Mars Rovers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "Eleazar Hernández",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "26.1.0"
+  }
+}

@@ -1,0 +1,1 @@
+module.exports = CARDINAL_DIRECTIONS = { N: "N", E: "E", S: "S", W: "W" };
