@@ -11,8 +11,13 @@ const processor = require('./processor')
 const input =  process.argv[2];
 var inputLines = input.split(";");
 
-const rovers = processor.processRover(inputLines);
+try {
+  const rovers = processor.processRover(inputLines);
+  rovers.forEach(element => {
+    console.log(element.getRoverState());
+  });
+} catch (Error){
+  console.log(Error.message);
+}
 
-rovers.forEach(element => {
-  console.log(element.getRoverState());
-});
+
